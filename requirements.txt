@@ -1,0 +1,2 @@
+biopython>=1.81,<2
+jupyterlab>=4,<5

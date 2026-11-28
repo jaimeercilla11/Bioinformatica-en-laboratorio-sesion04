@@ -1,2 +1,12 @@
-blastdb/
 .idea/
+blastdb/*
+!blastdb/16S_ribosomal_RNA.tar.gz
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+query_lcr.fasta
+resultado_local.xml
+Thumbs.db
+.DS_Store

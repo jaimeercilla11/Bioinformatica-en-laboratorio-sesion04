@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>rRNA_typestrains/16S_ribosomal_RNA</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2912325</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>56</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2912325</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|559795353|ref|NR_104946.1|</Hit_id>
+  <Hit_def>Neisseria meningitidis strain M1027 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_104946</Hit_accession>
+  <Hit_len>1415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.275</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.12077e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1269860224|ref|NR_026079.2|</Hit_id>
+  <Hit_def>Neisseria gonorrhoeae strain NCTC 8375 16S ribosomal RNA, complete sequence</Hit_def>
+  <Hit_accession>NR_026079</Hit_accession>
+  <Hit_len>1541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGGGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|659364471|ref|NR_121688.1|</Hit_id>
+  <Hit_def>Neisseria sicca ATCC 29256 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_121688</Hit_accession>
+  <Hit_len>1529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|659364465|ref|NR_121687.1|</Hit_id>
+  <Hit_def>Neisseria cinerea strain ATCC 14685 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_121687</Hit_accession>
+  <Hit_len>1529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|645320533|ref|NR_117717.1|</Hit_id>
+  <Hit_def>Neisseria mucosa strain DSM 17611 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117717</Hit_accession>
+  <Hit_len>1537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|645320512|ref|NR_117701.1|</Hit_id>
+  <Hit_def>Neisseria macacae strain M-740 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117701</Hit_accession>
+  <Hit_len>1514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|645320506|ref|NR_117696.1|</Hit_id>
+  <Hit_def>Neisseria mucosa strain N16 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117696</Hit_accession>
+  <Hit_len>1501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|645320503|ref|NR_117694.1|</Hit_id>
+  <Hit_def>Neisseria perflava strain Branham 7078 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117694</Hit_accession>
+  <Hit_len>1514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|645320501|ref|NR_117692.1|</Hit_id>
+  <Hit_def>Neisseria weaveri strain 8142 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117692</Hit_accession>
+  <Hit_len>1514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1491514408|ref|NR_159156.1|</Hit_id>
+  <Hit_def>Neisseria dumasiana strain 93087 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_159156</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|559795354|ref|NR_104947.1|</Hit_id>
+  <Hit_def>Morococcus cerebrosus strain CIP 81.93 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_104947</Hit_accession>
+  <Hit_len>1427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|636560707|ref|NR_116767.1|</Hit_id>
+  <Hit_def>Neisseria shayeganii 871 strain WC 08-871 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_116767</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|265678539|ref|NR_028843.1|</Hit_id>
+  <Hit_def>Neisseria dentiae strain V33 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_028843</Hit_accession>
+  <Hit_len>1341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|343198590|ref|NR_042978.1|</Hit_id>
+  <Hit_def>Neisseria bacilliformis ATCC BAA-1200 strain MDA2833 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_042978</Hit_accession>
+  <Hit_len>1489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|343198711|ref|NR_043459.1|</Hit_id>
+  <Hit_def>Neisseria zoodegmatis strain LMG 23012 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_043459</Hit_accession>
+  <Hit_len>1482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|219846312|ref|NR_025902.1|</Hit_id>
+  <Hit_def>Neisseria weaveri strain CDC 8142 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_025902</Hit_accession>
+  <Hit_len>1487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.01775e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|219846302|ref|NR_025892.1|</Hit_id>
+  <Hit_def>Neisseria flavescens strain N 155 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_025892</Hit_accession>
+  <Hit_len>1486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>3.1475e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|645321770|ref|NR_118659.1|</Hit_id>
+  <Hit_def>Neisseria macacae ATCC 33926 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_118659</Hit_accession>
+  <Hit_len>1473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.1598</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>1.09859e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGT</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|559795240|ref|NR_104830.1|</Hit_id>
+  <Hit_def>Neisseria iguanae strain NVSL 85737 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_104830</Hit_accession>
+  <Hit_len>1479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2581</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.09859e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGGGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|343201263|ref|NR_041989.1|</Hit_id>
+  <Hit_def>Neisseria subflava strain U37 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_041989</Hit_accession>
+  <Hit_len>1355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.7497</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>4.67131e-18</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>CAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|343201262|ref|NR_041988.1|</Hit_id>
+  <Hit_def>Neisseria polysaccharea strain NCTC 11858 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_041988</Hit_accession>
+  <Hit_len>1355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.7497</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>4.67131e-18</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>CAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CAGCACAGAGAAGCTTGCTTCTTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2962412247|ref|NR_199441.1|</Hit_id>
+  <Hit_def>Dyella aluminiiresistens strain A6 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_199441</Hit_accession>
+  <Hit_len>1503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.9463</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.63045e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGTGAAGCTTGCTTCACGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||| |||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1397641829|ref|NR_156938.1|</Hit_id>
+  <Hit_def>Rhodanobacter rhizosphaerae strain CR164 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_156938</Hit_accession>
+  <Hit_len>1486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.98629e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1033657173|ref|NR_137263.1|</Hit_id>
+  <Hit_def>Pseudoxanthomonas sangjuensis strain 5GH38-5 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_137263</Hit_accession>
+  <Hit_len>1482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.98629e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTCGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| |||||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|631253033|ref|NR_114231.1|</Hit_id>
+  <Hit_def>Rhodanobacter fulvus Jip2 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_114231</Hit_accession>
+  <Hit_len>1470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.98629e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|343200265|ref|NR_040952.1|</Hit_id>
+  <Hit_def>Rhodanobacter fulvus Jip2 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_040952</Hit_accession>
+  <Hit_len>1480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.98629e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|219878326|ref|NR_025465.1|</Hit_id>
+  <Hit_def>Fulvimonas soli strain LMG 19981 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_025465</Hit_accession>
+  <Hit_len>1497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.98629e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|219857248|ref|NR_024878.1|</Hit_id>
+  <Hit_def>Rhodanobacter lindaniclasticus strain RP5557 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_024878</Hit_accession>
+  <Hit_len>1503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.98629e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|645322107|ref|NR_118930.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus NBRC 15645 = ATCC 27562 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_118930</Hit_accession>
+  <Hit_len>1472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|645322103|ref|NR_118925.1|</Hit_id>
+  <Hit_def>Vibrio diazotrophicus strain ATCC 33466 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_118925</Hit_accession>
+  <Hit_len>1472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|631253019|ref|NR_114217.1|</Hit_id>
+  <Hit_def>Vibrio diazotrophicus strain NBRC 103148 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_114217</Hit_accession>
+  <Hit_len>1468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|631252594|ref|NR_113792.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus NBRC 15645 = ATCC 27562 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_113792</Hit_accession>
+  <Hit_len>1468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|645320784|ref|NR_117907.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus NBRC 15645 = ATCC 27562 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117907</Hit_accession>
+  <Hit_len>1363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|645320783|ref|NR_117906.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus NBRC 15645 = ATCC 27562 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_117906</Hit_accession>
+  <Hit_len>1363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|672238930|ref|NR_125519.1|</Hit_id>
+  <Hit_def>Vibrio navarrensis strain CAIM 609 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_125519</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|310975024|ref|NR_036888.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus strain 324 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_036888</Hit_accession>
+  <Hit_len>1536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|645322271|ref|NR_119061.1|</Hit_id>
+  <Hit_def>Vibrio vulnificus NBRC 15645 = ATCC 27562 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_119061</Hit_accession>
+  <Hit_len>1466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|219846531|ref|NR_026123.1|</Hit_id>
+  <Hit_def>Vibrio diazotrophicus strain NS 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_026123</Hit_accession>
+  <Hit_len>1456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>6.93284e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGCAGCACAGAGAAACTTGTTTCTCGGGTGGCGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||| ||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1240411901|ref|NR_149233.1|</Hit_id>
+  <Hit_def>Luteimonas terrae strain THG-MD21 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_149233</Hit_accession>
+  <Hit_len>1469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.4198e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|559795335|ref|NR_104928.1|</Hit_id>
+  <Hit_def>Pantoea stewartii subsp. indologenes strain CIP 104006 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_104928</Hit_accession>
+  <Hit_len>1524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.4198e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGTAGCACAGAGGAGCTTGCTCCTCGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||| |||||||| |||||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|636560222|ref|NR_116282.1|</Hit_id>
+  <Hit_def>Tatumella morbirosei strain LMG 23360 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_116282</Hit_accession>
+  <Hit_len>1492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.4198e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGA-GCTTGCT-CTCGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||||| |||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|645322666|ref|NR_119361.1|</Hit_id>
+  <Hit_def>Pantoea stewartii strain LMG 2715 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_119361</Hit_accession>
+  <Hit_len>1497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.4198e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGTAGCACAGAGGAGCTTGCTCCTCGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||| |||||||| |||||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|645322526|ref|NR_119256.1|</Hit_id>
+  <Hit_def>Pantoea stewartii subsp. indologenes strain LMG 2632 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_119256</Hit_accession>
+  <Hit_len>1499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7328</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.4198e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGTAGCACAGAGGAGCTTGCTCCTCGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||| |||||||| |||||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2962412342|ref|NR_199537.1|</Hit_id>
+  <Hit_def>Stenotrophomonas forensis strain DFS-20110405 16S ribosomal RNA, complete sequence</Hit_def>
+  <Hit_accession>NR_199537</Hit_accession>
+  <Hit_len>1547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2363083887|ref|NR_180192.1|</Hit_id>
+  <Hit_def>Pseudoxanthomonas winnipegensis strain NML 130738 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_180192</Hit_accession>
+  <Hit_len>1478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1277396373|ref|NR_152086.1|</Hit_id>
+  <Hit_def>Lysobacter firmicutimachus strain PB-6250 16S ribosomal RNA, complete sequence</Hit_def>
+  <Hit_accession>NR_152086</Hit_accession>
+  <Hit_len>1545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1953646652|ref|NR_171480.1|</Hit_id>
+  <Hit_def>Lysobacter silvisoli strain zong2l5 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_171480</Hit_accession>
+  <Hit_len>1506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1909404380|ref|NR_170433.1|</Hit_id>
+  <Hit_def>Luteimonas chenhongjianii strain 100111 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_170433</Hit_accession>
+  <Hit_len>1530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2363082839|ref|NR_179668.1|</Hit_id>
+  <Hit_def>[Erwinia] mediterraneensis strain Marseille-P5165 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_179668</Hit_accession>
+  <Hit_len>1538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGGAAAGCTTGCTTTCCGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||||||||||  |||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2363087333|ref|NR_181923.1|</Hit_id>
+  <Hit_def>Luteimonas fraxinea strain D4P002 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_181923</Hit_accession>
+  <Hit_len>1446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|1341394054|ref|NR_153726.1|</Hit_id>
+  <Hit_def>Pseudoxanthomonas helianthi strain roo10 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_153726</Hit_accession>
+  <Hit_len>1494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|974142239|ref|NR_134759.1|</Hit_id>
+  <Hit_def>Lysobacter caeni strain BUT-8 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_134759</Hit_accession>
+  <Hit_len>1506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|566085617|ref|NR_109692.1|</Hit_id>
+  <Hit_def>Luteimonas huabeiensis HB2 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_109692</Hit_accession>
+  <Hit_len>1506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGGGGAGCTTGCTCCCTGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | |||||||| |  ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|631253119|ref|NR_114317.1|</Hit_id>
+  <Hit_def>Lysobacter oligotrophicus strain 107-E2 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_114317</Hit_accession>
+  <Hit_len>1470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|2363086236|ref|NR_181370.1|</Hit_id>
+  <Hit_def>Luteimonas deserti strain SJ-16 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_181370</Hit_accession>
+  <Hit_len>1505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|566085108|ref|NR_108848.1|</Hit_id>
+  <Hit_def>Erwinia oleae strain DAPP-PG 531 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_108848</Hit_accession>
+  <Hit_len>1494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGTAGCACAGAGGAGCTTGCTCCTCGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| |||||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|926663116|ref|NR_132710.1|</Hit_id>
+  <Hit_def>Rhodanobacter xiangquanii strain BJQ-6 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_132710</Hit_accession>
+  <Hit_len>1424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCCGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|343205954|ref|NR_044467.1|</Hit_id>
+  <Hit_def>Rhodanobacter ginsenosidimutans strain Gsoil 3054 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_044467</Hit_accession>
+  <Hit_len>1504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGGGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | |||||||| || ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|343199016|ref|NR_044323.1|</Hit_id>
+  <Hit_def>Luteimonas aquatica strain RIB1-20 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_044323</Hit_accession>
+  <Hit_len>1481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|636560014|ref|NR_116074.1|</Hit_id>
+  <Hit_def>Lysobacter soli strain DCY21 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_116074</Hit_accession>
+  <Hit_len>1496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|343198984|ref|NR_044250.1|</Hit_id>
+  <Hit_def>Lysobacter capsici strain YC5194 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_044250</Hit_accession>
+  <Hit_len>1470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|343203106|ref|NR_043624.1|</Hit_id>
+  <Hit_def>Aerolutibacter daejeonensis strain GH1-9 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_043624</Hit_accession>
+  <Hit_len>1471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|631251374|ref|NR_112571.1|</Hit_id>
+  <Hit_def>Lysobacter daecheongensis strain Dae08 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_112571</Hit_accession>
+  <Hit_len>1452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|631251366|ref|NR_112563.1|</Hit_id>
+  <Hit_def>Lysobacter ginsengisoli strain Gsoil 357 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_112563</Hit_accession>
+  <Hit_len>1494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|343200681|ref|NR_041368.1|</Hit_id>
+  <Hit_def>Luteimonas panaciterrae strain Gsoil 068 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_041368</Hit_accession>
+  <Hit_len>1489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|343200318|ref|NR_041005.1|</Hit_id>
+  <Hit_def>Lysobacter gummosus strain KCTC 12132 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_041005</Hit_accession>
+  <Hit_len>1482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|310975061|ref|NR_036925.1|</Hit_id>
+  <Hit_def>Lysobacter enzymogenes strain 495 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_036925</Hit_accession>
+  <Hit_len>1509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|219856890|ref|NR_024709.1|</Hit_id>
+  <Hit_def>Stenotrophomonas hibiscicola strain ATCC 19867 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_024709</Hit_accession>
+  <Hit_len>1519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|219856889|ref|NR_024708.1|</Hit_id>
+  <Hit_def>Stenotrophomonas geniculata ATCC 19374 = JCM 13324 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_024708</Hit_accession>
+  <Hit_len>1497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|224581439|ref|NR_027221.1|</Hit_id>
+  <Hit_def>Lysobacter antibioticus strain USAM 3C 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_027221</Hit_accession>
+  <Hit_len>1495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.9295</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|2363080583|ref|NR_178532.1|</Hit_id>
+  <Hit_def>Montanilutibacter psychrotolerans strain personal::Zs60 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_178532</Hit_accession>
+  <Hit_len>1519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0278</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGAGGAGCTTGCTCCTTGGGTGGCGAGTGGCGGACGGGTGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| || ||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|343198438|ref|NR_041821.1|</Hit_id>
+  <Hit_def>Conchiformibius kuhniae strain ATCC 29437 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_041821</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0278</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>8.44593e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCRSGGAGGAGCTTGCTTCTYKGSYGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||   ||| |||||||||||  |  ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|2363086200|ref|NR_181352.1|</Hit_id>
+  <Hit_def>Oceanobacter mangrovi strain SM2-42 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_181352</Hit_accession>
+  <Hit_len>1400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|2363081668|ref|NR_179080.1|</Hit_id>
+  <Hit_def>Pokkaliibacter plantistimulans strain L1E11 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_179080</Hit_accession>
+  <Hit_len>1452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|2363081256|ref|NR_178872.1|</Hit_id>
+  <Hit_def>Nitrincola tapanii strain MEB193 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_178872</Hit_accession>
+  <Hit_len>1481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|1315204043|ref|NR_152713.1|</Hit_id>
+  <Hit_def>Vreelandella lutescens strain Q1U 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_152713</Hit_accession>
+  <Hit_len>1447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|2136551635|ref|NR_173639.1|</Hit_id>
+  <Hit_def>Venatoribacter cucullus strain ASxL5 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_173639</Hit_accession>
+  <Hit_len>1541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|2363087035|ref|NR_181774.1|</Hit_id>
+  <Hit_def>Vreelandella profundi strain MT13 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_181774</Hit_accession>
+  <Hit_len>1497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|699005336|ref|NR_126205.1|</Hit_id>
+  <Hit_def>Vreelandella lionensis strain RHS90 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_126205</Hit_accession>
+  <Hit_len>1427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|631252965|ref|NR_114163.1|</Hit_id>
+  <Hit_def>Marinobacterium iners strain NBRC 102606 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_114163</Hit_accession>
+  <Hit_len>1468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|219846873|ref|NR_026465.1|</Hit_id>
+  <Hit_def>Balneatrix alpica strain 4-87 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_026465</Hit_accession>
+  <Hit_len>1395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|343206208|ref|NR_044800.1|</Hit_id>
+  <Hit_def>Pantoea stewartii strain ATCC 8199 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_044800</Hit_accession>
+  <Hit_len>1456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGTAGCACAGAGGAGCTTGCT-CTCGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||| |||||||| |||||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|343206203|ref|NR_044795.1|</Hit_id>
+  <Hit_def>Marinobacterium iners strain KW-40 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_044795</Hit_accession>
+  <Hit_len>1435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>CGGTAGCACAGAGAAGCTTGCTTCTTGGGTGACGAGCGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||| |||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|1269785358|ref|NR_121735.2|</Hit_id>
+  <Hit_def>Snodgrassella alvi wkB2 16S ribosomal RNA, complete sequence &gt;gi|1269785421|ref|NR_118404.2| Snodgrassella alvi wkB2 16S ribosomal RNA, complete sequence</Hit_def>
+  <Hit_accession>NR_121735</Hit_accession>
+  <Hit_len>1540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|1269785344|ref|NR_122055.2|</Hit_id>
+  <Hit_def>Snodgrassella alvi wkB2 16S ribosomal RNA, complete sequence &gt;gi|1269785420|ref|NR_118405.2| Snodgrassella alvi wkB2 16S ribosomal RNA, complete sequence</Hit_def>
+  <Hit_accession>NR_122055</Hit_accession>
+  <Hit_len>1539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|1779814929|ref|NR_165003.1|</Hit_id>
+  <Hit_def>Corticimicrobacter populi strain 3d-2-2 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_165003</Hit_accession>
+  <Hit_len>1456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|1384992347|ref|NR_156096.1|</Hit_id>
+  <Hit_def>Methylobacillus methanolivorans strain Z 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_156096</Hit_accession>
+  <Hit_len>1443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|2363087407|ref|NR_181960.1|</Hit_id>
+  <Hit_def>Snodgrassella gandavensis strain LMG 30236 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_181960</Hit_accession>
+  <Hit_len>1534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|2363087405|ref|NR_181959.1|</Hit_id>
+  <Hit_def>Snodgrassella communis strain LMG 28360 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_181959</Hit_accession>
+  <Hit_len>1534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|631252913|ref|NR_114111.1|</Hit_id>
+  <Hit_def>Pantoea agglomerans strain NBRC 102470 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_114111</Hit_accession>
+  <Hit_len>1466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGTAGCACAGAGGAGCTTGCTCCTTGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||| |||||||| || ||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|559795171|ref|NR_104760.1|</Hit_id>
+  <Hit_def>Methylobacillus glycogenes strain TK 0113 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_104760</Hit_accession>
+  <Hit_len>1532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|566085111|ref|NR_108851.1|</Hit_id>
+  <Hit_def>Methylobacillus arboreus strain Iva 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_108851</Hit_accession>
+  <Hit_len>1397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGGAGA-GCTTGCT-CTCTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||| ||||||| ||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|343202339|ref|NR_042625.1|</Hit_id>
+  <Hit_def>Allochromatium phaeobacterium strain JA144 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_042625</Hit_accession>
+  <Hit_len>1458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGCAGCACAGGGGAGCTTGCTCCCTGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| | |||||||| |  ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|343201252|ref|NR_041978.1|</Hit_id>
+  <Hit_def>Pantoea agglomerans strain DSM 3493 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_041978</Hit_accession>
+  <Hit_len>1473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.94792e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>GACGGTAGCACAGAGGAGCTTGCTCCTTGGGTGACGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||| |||||||| || ||||| ||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|3248465647|ref|NR_201659.1|</Hit_id>
+  <Hit_def>Puribacter membranae strain HTMS3 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_201659</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.02892e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGC-ACAGAGAAGCTTGCTTCTCGGGT-GGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCGAGAGAGAAGCTTGCTTCTCTTGTCGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||| | |||||||||||||||||  || ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|1182956136|ref|NR_146844.1|</Hit_id>
+  <Hit_def>Pusillimonas caeni strain EBR-8-1 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_146844</Hit_accession>
+  <Hit_len>1444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.02892e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCAC-AGAGAAGCTTGCTTCTCG-GGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGAGATAAGCTTGCTTATCTTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||| |||||||||| ||  |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gi|343198633|ref|NR_043129.1|</Hit_id>
+  <Hit_def>Pusillimonas noertemannii strain BN9 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_043129</Hit_accession>
+  <Hit_len>1525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3227</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.02892e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCAC-AGAGAAGCTTGCTTCTCG-GGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACGAGATAAGCTTGCTTATCTTGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||| |||||||||| ||  |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gi|2363083879|ref|NR_180188.1|</Hit_id>
+  <Hit_def>Cognatiluteimonas weifangensis strain WF-2 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_180188</Hit_accession>
+  <Hit_len>1467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.02892e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGGGGAGCTTGCTCCCCGGGTGGCGAGTGGCGGACGGGTGAGGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | |||||||| | |||||||||||||||| ||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gi|1397641697|ref|NR_156801.1|</Hit_id>
+  <Hit_def>Immundisolibacter cernigliae strain TR3.2 16S ribosomal RNA, complete sequence</Hit_def>
+  <Hit_accession>NR_156801</Hit_accession>
+  <Hit_len>1544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.02892e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGGGTAGCTTGCTATCCGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||||   |||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|2221405331|ref|NR_175482.1|</Hit_id>
+  <Hit_def>Frateuria flava strain MAH-13 16S ribosomal RNA, partial sequence</Hit_def>
+  <Hit_accession>NR_175482</Hit_accession>
+  <Hit_len>1419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.02892e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ACGGCAGCACAGAGAAGCTTGCTTCTCGGGTGGCGAGTGGCGAACGGGTGAGTAA</Hsp_qseq>
+      <Hsp_hseq>ACGGCAGCACAGTGGAGCTTGCTCCATGGGTGGCGAGTGGCGGACGGGTGAGTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | |||||||| |  ||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>27657</Statistics_db-num>
+      <Statistics_db-len>40064577</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
